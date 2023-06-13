@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NOYOFO Bulk SMS</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Bulk SMS</h1>
+  <form action="/send-sms" method="POST" enctype="multipart/form-data">
+    <label for="excelFile">Select Excel File:</label>
+    <input type="file" id="excelFile" name="excelFile" accept=".xlsx" required>
+    <button type="submit">Send SMS</button>
+  </form>
+</body>
+</html>
+
+
